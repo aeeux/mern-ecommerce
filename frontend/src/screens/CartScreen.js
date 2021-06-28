@@ -10,6 +10,9 @@ const CartScreen = () => {
                 <h2>Shopping Cart</h2>
 
                 <CartItem />
+                <CartItem />
+                <CartItem />
+                <CartItem />
             </div>
             <div className="cartscreen__right">
                 <div className="cartscreen__info">
