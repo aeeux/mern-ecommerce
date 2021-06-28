@@ -44,3 +44,34 @@
     background: #171717;
     color: #e7e7e7;
 }
+
+.sidedrawer__links > li > a > span {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.sidedrawer__cartbadge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #171717;
+    color: #e7e7e7;
+    font-size: 1rem;
+    margin-left: 8px;
+}
+
+.sidedrawer__links > li > a:hover .sidedrawer__cartbadge {
+    background: #e7e7e7;
+    color: #171717;
+}
+
+@media (min-width: 960px) {
+    .sidedrawer {
+        display: none;
+    }
+}
